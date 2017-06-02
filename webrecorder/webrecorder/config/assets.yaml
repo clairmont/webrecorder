@@ -31,6 +31,7 @@ bundles:
             - recordings.js
             - external/validator.js
             - containerized_ui.js
+            - mount_ui.js
 
     main-css:
         output: bundle/main.css

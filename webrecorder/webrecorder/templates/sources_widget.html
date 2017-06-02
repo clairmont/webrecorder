@@ -1,0 +1,31 @@
+<div class="btn-group">
+    <button class="btn btn-primary sources-widget dropdown-toggle" type="button" id="timePicker" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        <ul>
+            <li class="ts">Most Recent</li>
+            <li class="mnt-label">All sources</li>
+        </ul>
+    </button>
+    <div class="dropdown-menu sources-dropdown" aria-labelledby="timePicker">
+        <div>
+            <span class="ra-mode-badge">extracting</span> to <span class="ra-collection">Test Collection</span>
+        </div>
+        <div class="ra-info">
+            <div>
+                <span>URL</span>
+                <span>FROM</span>
+                <span>TIMESTAMP</span>
+            </div>
+            <div>
+                <span class="ra-source">http://example.com</span>
+                <span class="ra-source-name">Internet Archive</span>
+                <span class="ra-ts">5 Nov 2004, 9:16:36 AM</span>
+            </div>
+        </div>
+        <div class="archive-toggle">
+            <div class="checkbox-block">
+                <input id="all_archives" name="all_archives" type="checkbox" checked>
+            </div>
+            <label for="all_archives">Automatically attempt recover of missing resources using public archives and the live web.</label>
+        </div>
+    </div>
+</div>

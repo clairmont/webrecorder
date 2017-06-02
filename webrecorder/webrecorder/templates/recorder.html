@@ -18,7 +18,7 @@
     <div class="main-bar">
         <form class="{{ 'content-form' if curr_mode != 'new' else 'start-recording' }} form-group-recorder-url">
             <div class="input-group containerized">
-                <div class='input-group-btn'>
+                <div class='input-group-btn rb-dropdown'>
                     {% if curr_mode == 'replay' or curr_mode == 'replay-coll' %}
                         <button type="button" class="btn btn-default btn-prev hidden-xs" title="Previous bookmark"><span class='glyphicon glyphicon-chevron-left'></span></button>
                         <input type="text" id='page-display' class='form-control hidden-sm hidden-xs' title="Bookmark index" value="-" readonly/>

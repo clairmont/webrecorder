@@ -638,7 +638,7 @@ var ShareWidget = (function () {
             hasWidget = true;
             $(".ispublic").bootstrapSwitch().on('switchChange.bootstrapSwitch', updateVisibility);
 
-            $('.dropdown-menu').on('click', function (evt) {evt.stopPropagation(); });
+            $('.dropdown-menu').on('click', function (evt) { evt.stopPropagation(); });
             $('.share-container .glyphicon-remove-circle').on('click', function (evt) { $(this).parents('.share-container').toggleClass('open'); });
 
             var obj = $('.shareables');

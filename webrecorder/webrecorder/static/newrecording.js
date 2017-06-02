@@ -83,6 +83,7 @@ $(function() {
                 '<span class="caret"></span>'));
 
         setStorage("__wr_currColl", currColl);
+        setStorage("__wr_currCollTitle", $(this).text());
     });
 
     $('#create-coll').on('submit', function(event) {
@@ -104,6 +105,7 @@ $(function() {
             }
 
             setStorage("__wr_currColl", data.collection.id);
+            setStorage("__wr_currCollTitle", data.collection.title);
 
             if (window.location.pathname == "/") {
                 // hide modal
