@@ -1234,7 +1234,8 @@ div.filter-label {
     text-align: center;
 }
 .cbrowser .navbar-default {
-    background: transparent;
+    background: #FFF;
+    box-shadow: none;
 }
 .cbrowser .navbar {
     -webkit-box-shadow: none;
@@ -1467,6 +1468,7 @@ div.paging-container:hover .home-link {
     -ms-flex-align: center;
     position: relative;
     z-index: 10;
+    border-radius: 0;
 }
 .wr-controls.public {
     position: relative;
